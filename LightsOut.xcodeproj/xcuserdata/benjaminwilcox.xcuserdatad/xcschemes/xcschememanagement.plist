@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TestLightsOut 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TestLightsOut.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B793B5581C68E7F3002D7AF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B793B5701C6907C3002D7AF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B793B57C1C690A7A002D7AF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

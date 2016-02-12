@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B793B5581C68E7F3002D7AF3"
-               BuildableName = "LightsOut"
-               BlueprintName = "LightsOut"
+               BlueprintIdentifier = "B793B57C1C690A7A002D7AF3"
+               BuildableName = "TestLightsOut"
+               BlueprintName = "TestLightsOut"
                ReferencedContainer = "container:LightsOut.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B793B57C1C690A7A002D7AF3"
-               BuildableName = "TestLightsOut"
-               BlueprintName = "TestLightsOut"
-               ReferencedContainer = "container:LightsOut.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B793B5581C68E7F3002D7AF3"
-            BuildableName = "LightsOut"
-            BlueprintName = "LightsOut"
+            BlueprintIdentifier = "B793B57C1C690A7A002D7AF3"
+            BuildableName = "TestLightsOut"
+            BlueprintName = "TestLightsOut"
             ReferencedContainer = "container:LightsOut.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,26 +55,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B793B5581C68E7F3002D7AF3"
-            BuildableName = "LightsOut"
-            BlueprintName = "LightsOut"
+            BlueprintIdentifier = "B793B57C1C690A7A002D7AF3"
+            BuildableName = "TestLightsOut"
+            BlueprintName = "TestLightsOut"
             ReferencedContainer = "container:LightsOut.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "-r console"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-d yes"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-s"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -98,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B793B5581C68E7F3002D7AF3"
-            BuildableName = "LightsOut"
-            BlueprintName = "LightsOut"
+            BlueprintIdentifier = "B793B57C1C690A7A002D7AF3"
+            BuildableName = "TestLightsOut"
+            BlueprintName = "TestLightsOut"
             ReferencedContainer = "container:LightsOut.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

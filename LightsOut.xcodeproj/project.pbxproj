@@ -8,10 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		B793B55D1C68E7F3002D7AF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B793B55C1C68E7F3002D7AF3 /* main.cpp */; };
+		B793B5681C68FCCD002D7AF3 /* GameLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B793B5661C68FCCD002D7AF3 /* GameLogic.cpp */; };
+		B793B5801C690A7A002D7AF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B793B57F1C690A7A002D7AF3 /* main.cpp */; };
+		B7B37A511C690E7700BA974B /* testGameLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B37A4F1C690E7700BA974B /* testGameLogic.cpp */; };
+		B7B37A521C690EBA00BA974B /* GameLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B793B5661C68FCCD002D7AF3 /* GameLogic.cpp */; };
+		B7B37A571C6B7F3800BA974B /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B37A551C6B7F3800BA974B /* Tile.cpp */; };
+		B7B37A581C6B7F3800BA974B /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B37A551C6B7F3800BA974B /* Tile.cpp */; };
+		B7B37A5A1C6B80CF00BA974B /* testTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B37A591C6B80CF00BA974B /* testTile.cpp */; };
+		B7B37A5B1C6B80CF00BA974B /* testTile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7B37A591C6B80CF00BA974B /* testTile.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B793B5571C68E7F3002D7AF3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B793B57B1C690A7A002D7AF3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +42,26 @@
 /* Begin PBXFileReference section */
 		B793B5591C68E7F3002D7AF3 /* LightsOut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LightsOut; sourceTree = BUILT_PRODUCTS_DIR; };
 		B793B55C1C68E7F3002D7AF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B793B5661C68FCCD002D7AF3 /* GameLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameLogic.cpp; sourceTree = "<group>"; };
+		B793B5671C68FCCD002D7AF3 /* GameLogic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameLogic.hpp; sourceTree = "<group>"; };
+		B793B57D1C690A7A002D7AF3 /* TestLightsOut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestLightsOut; sourceTree = BUILT_PRODUCTS_DIR; };
+		B793B57F1C690A7A002D7AF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B7B37A4E1C690D1000BA974B /* catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
+		B7B37A4F1C690E7700BA974B /* testGameLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testGameLogic.cpp; sourceTree = "<group>"; };
+		B7B37A551C6B7F3800BA974B /* Tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		B7B37A561C6B7F3800BA974B /* Tile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tile.hpp; sourceTree = "<group>"; };
+		B7B37A591C6B80CF00BA974B /* testTile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testTile.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B793B5561C68E7F3002D7AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B793B57A1C690A7A002D7AF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				B793B55B1C68E7F3002D7AF3 /* LightsOut */,
+				B793B57E1C690A7A002D7AF3 /* TestLightsOut */,
 				B793B55A1C68E7F3002D7AF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				B793B5591C68E7F3002D7AF3 /* LightsOut */,
+				B793B57D1C690A7A002D7AF3 /* TestLightsOut */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +93,23 @@
 			isa = PBXGroup;
 			children = (
 				B793B55C1C68E7F3002D7AF3 /* main.cpp */,
+				B793B5661C68FCCD002D7AF3 /* GameLogic.cpp */,
+				B793B5671C68FCCD002D7AF3 /* GameLogic.hpp */,
+				B7B37A551C6B7F3800BA974B /* Tile.cpp */,
+				B7B37A561C6B7F3800BA974B /* Tile.hpp */,
 			);
 			path = LightsOut;
+			sourceTree = "<group>";
+		};
+		B793B57E1C690A7A002D7AF3 /* TestLightsOut */ = {
+			isa = PBXGroup;
+			children = (
+				B793B57F1C690A7A002D7AF3 /* main.cpp */,
+				B7B37A4E1C690D1000BA974B /* catch.hpp */,
+				B7B37A4F1C690E7700BA974B /* testGameLogic.cpp */,
+				B7B37A591C6B80CF00BA974B /* testTile.cpp */,
+			);
+			path = TestLightsOut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,16 +132,40 @@
 			productReference = B793B5591C68E7F3002D7AF3 /* LightsOut */;
 			productType = "com.apple.product-type.tool";
 		};
+		B793B57C1C690A7A002D7AF3 /* TestLightsOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B793B5811C690A7A002D7AF3 /* Build configuration list for PBXNativeTarget "TestLightsOut" */;
+			buildPhases = (
+				B793B5791C690A7A002D7AF3 /* Sources */,
+				B793B57A1C690A7A002D7AF3 /* Frameworks */,
+				B793B57B1C690A7A002D7AF3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLightsOut;
+			productName = TestLightsOut;
+			productReference = B793B57D1C690A7A002D7AF3 /* TestLightsOut */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B793B5511C68E7F3002D7AF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Benjamin Wilcox";
 				TargetAttributes = {
 					B793B5581C68E7F3002D7AF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B793B57C1C690A7A002D7AF3 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
@@ -109,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				B793B5581C68E7F3002D7AF3 /* LightsOut */,
+				B793B57C1C690A7A002D7AF3 /* TestLightsOut */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +193,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B37A571C6B7F3800BA974B /* Tile.cpp in Sources */,
+				B793B5681C68FCCD002D7AF3 /* GameLogic.cpp in Sources */,
 				B793B55D1C68E7F3002D7AF3 /* main.cpp in Sources */,
+				B7B37A5A1C6B80CF00BA974B /* testTile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B793B5791C690A7A002D7AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B37A511C690E7700BA974B /* testGameLogic.cpp in Sources */,
+				B7B37A521C690EBA00BA974B /* GameLogic.cpp in Sources */,
+				B7B37A5B1C6B80CF00BA974B /* testTile.cpp in Sources */,
+				B793B5801C690A7A002D7AF3 /* main.cpp in Sources */,
+				B7B37A581C6B7F3800BA974B /* Tile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +308,20 @@
 			};
 			name = Release;
 		};
+		B793B5821C690A7A002D7AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B793B5831C690A7A002D7AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -237,6 +341,16 @@
 				B793B5621C68E7F3002D7AF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B793B5811C690A7A002D7AF3 /* Build configuration list for PBXNativeTarget "TestLightsOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B793B5821C690A7A002D7AF3 /* Debug */,
+				B793B5831C690A7A002D7AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
